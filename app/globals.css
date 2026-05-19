@@ -125,7 +125,7 @@ body {
 .purchase-toast {
   position: fixed;
   left: 16px;
-  bottom: 16px;
+  bottom: 88px;
   z-index: 60;
   display: flex;
   gap: 12px;
@@ -206,6 +206,7 @@ body {
     left: 12px;
     right: 12px;
     max-width: none;
+    bottom: 96px;
   }
 }
 
