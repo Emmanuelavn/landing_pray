@@ -16,6 +16,7 @@ import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import Reveal from "@/components/Reveal";
 import PurchaseNotification from "@/components/PurchaseNotification";
+import StickyOfferBar from "@/components/StickyOfferBar";
 
 export default function Home() {
   return (
@@ -66,6 +67,7 @@ export default function Home() {
       <Reveal delay={0.12}>
         <FloatingWhatsApp />
       </Reveal>
+      <StickyOfferBar />
       <PurchaseNotification />
     </main>
   );
